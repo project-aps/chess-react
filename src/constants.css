@@ -1,0 +1,20 @@
+:root {
+    --tile-size: 60px;
+    --light-tile: #f0d8b6;
+    --dark-tile: #b48764;
+    --bg-color: #202020;
+    --highlight: rgba(0, 0, 0, 0.527);
+    --highlightEnemy: rgba(209, 58, 58, 0.781);
+    --check: #a10f0a;
+}
+
+@media screen and (max-device-width: 767px) and (orientation: portrait) {
+    :root {
+        --tile-size: 50px;
+    }
+}
+@media screen and (max-device-width: 767px) and (orientation: landscape) {
+    :root {
+        --tile-size: 50px;
+    }
+}
